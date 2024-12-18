@@ -1,0 +1,58 @@
+
+.counter-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .counter-display h2 {
+    font-size: 48px;
+    color: #007bff;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn-increment {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-decrement {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-reset {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
